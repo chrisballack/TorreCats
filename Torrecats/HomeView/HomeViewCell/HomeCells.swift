@@ -13,8 +13,11 @@ class HomeCell:UITableViewCell{
     @IBOutlet weak var DislikeImage: UIImageView!
     @IBOutlet weak var LikeImage: UIImageView!
     @IBOutlet weak var BackView: UIViewX!
-    @IBOutlet weak var ImageView: UIImageX!
+    @IBOutlet weak var ImageViewBack: UIImageView!
+    @IBOutlet weak var ImageView: UIImageView!
     @IBOutlet weak var LikeButton: UIButton!
     @IBOutlet weak var DislikeButton: UIButton!
+    @IBOutlet weak var HeightLike: NSLayoutConstraint!
+    @IBOutlet weak var HeightDisLike: NSLayoutConstraint!
     
 }

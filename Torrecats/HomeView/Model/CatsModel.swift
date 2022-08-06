@@ -48,6 +48,7 @@ class CatsModel{
         let hypoallergenic : Int?
         let reference_image_id : String?
         let image : Image?
+        var Cell : HomeCell?
 
         enum CodingKeys: String, CodingKey {
 
@@ -131,6 +132,7 @@ class CatsModel{
             hypoallergenic = try values.decodeIfPresent(Int.self, forKey: .hypoallergenic)
             reference_image_id = try values.decodeIfPresent(String.self, forKey: .reference_image_id)
             image = try values.decodeIfPresent(Image.self, forKey: .image)
+            Cell = nil
         }
 
     }

@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,17 +18,77 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPg-iP-Ehz" customClass="UIViewX" customModule="Torrecats" customModuleProvider="target">
                         <rect key="frame" x="8" y="0.0" width="398" height="386"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Os7-Jb-pDo" customClass="UIImageX" customModule="Torrecats" customModuleProvider="target">
-                                <rect key="frame" x="16" y="16" width="366" height="285"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpF-aw-XkH">
+                                <rect key="frame" x="0.0" y="0.0" width="398" height="317"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZsA-bH-shB" customClass="UIViewX" customModule="Torrecats" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="16" width="366" height="285"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aos-eD-IJw">
+                                                <rect key="frame" x="0.0" y="0.0" width="366" height="285"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="285" id="XUk-w0-v8N"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qga-Td-vSq">
+                                                <rect key="frame" x="0.0" y="0.0" width="366" height="285"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gQN-8f-VIS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="366" height="285"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                </view>
+                                                <blurEffect style="light"/>
+                                            </visualEffectView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Os7-Jb-pDo">
+                                                <rect key="frame" x="0.0" y="0.0" width="366" height="285"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="285" id="94J-Yu-iUU"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="aos-eD-IJw" secondAttribute="trailing" id="8FL-ie-fpw"/>
+                                            <constraint firstItem="aos-eD-IJw" firstAttribute="leading" secondItem="ZsA-bH-shB" secondAttribute="leading" id="EVK-3l-GIf"/>
+                                            <constraint firstAttribute="trailing" secondItem="Os7-Jb-pDo" secondAttribute="trailing" id="Ej3-cR-Yhp"/>
+                                            <constraint firstAttribute="bottom" secondItem="Os7-Jb-pDo" secondAttribute="bottom" id="Hn2-0u-WSG"/>
+                                            <constraint firstItem="Os7-Jb-pDo" firstAttribute="top" secondItem="ZsA-bH-shB" secondAttribute="top" id="Lmh-Qq-AZ5"/>
+                                            <constraint firstAttribute="height" constant="285" id="NUK-ra-p4k"/>
+                                            <constraint firstAttribute="bottom" secondItem="Qga-Td-vSq" secondAttribute="bottom" id="Tsy-Pr-3M3"/>
+                                            <constraint firstItem="aos-eD-IJw" firstAttribute="top" secondItem="ZsA-bH-shB" secondAttribute="top" id="di2-ub-2Wd"/>
+                                            <constraint firstItem="Qga-Td-vSq" firstAttribute="leading" secondItem="ZsA-bH-shB" secondAttribute="leading" id="ifW-7h-R5V"/>
+                                            <constraint firstItem="Os7-Jb-pDo" firstAttribute="leading" secondItem="ZsA-bH-shB" secondAttribute="leading" id="rqi-1V-HXz"/>
+                                            <constraint firstAttribute="bottom" secondItem="aos-eD-IJw" secondAttribute="bottom" id="wsD-Cz-NxW"/>
+                                            <constraint firstItem="Qga-Td-vSq" firstAttribute="top" secondItem="ZsA-bH-shB" secondAttribute="top" id="xCs-y8-syX"/>
+                                            <constraint firstAttribute="trailing" secondItem="Qga-Td-vSq" secondAttribute="trailing" id="yxH-Zf-LsE"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="285" id="94J-Yu-iUU"/>
+                                    <constraint firstAttribute="height" constant="317" id="6qf-M8-xGz"/>
+                                    <constraint firstItem="ZsA-bH-shB" firstAttribute="leading" secondItem="dpF-aw-XkH" secondAttribute="leading" constant="16" id="7UT-mm-i6Y"/>
+                                    <constraint firstItem="ZsA-bH-shB" firstAttribute="top" secondItem="dpF-aw-XkH" secondAttribute="top" constant="16" id="IU0-d4-Loc"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZsA-bH-shB" secondAttribute="trailing" constant="16" id="Y3v-dS-nCq"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="16"/>
-                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="DropShadowview" value="true"/>
                                 </userDefinedRuntimeAttributes>
-                            </imageView>
+                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="yCv-nJ-6nt">
                                 <rect key="frame" x="16" y="333" width="76" height="32"/>
                                 <subviews>
@@ -48,7 +107,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="83d-Vl-TWs" secondAttribute="bottom" id="6ek-ui-7RX"/>
                                             <constraint firstItem="83d-Vl-TWs" firstAttribute="top" secondItem="cIR-gy-bwL" secondAttribute="top" id="Kwv-yN-Ddi"/>
@@ -75,7 +134,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="Uah-9j-cZs" firstAttribute="centerY" secondItem="yrF-1s-ENn" secondAttribute="centerY" id="0UQ-9l-bRb"/>
                                             <constraint firstItem="MV7-RY-ecB" firstAttribute="top" secondItem="yrF-1s-ENn" secondAttribute="top" id="5gr-Kg-CG6"/>
@@ -90,14 +149,14 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98039215800000001" green="0.94117647410000005" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="Os7-Jb-pDo" firstAttribute="leading" secondItem="SPg-iP-Ehz" secondAttribute="leading" constant="16" id="3TK-Yk-RTI"/>
-                            <constraint firstAttribute="trailing" secondItem="Os7-Jb-pDo" secondAttribute="trailing" constant="16" id="Aeg-oN-Ift"/>
                             <constraint firstAttribute="bottom" secondItem="yCv-nJ-6nt" secondAttribute="bottom" constant="21" id="ET9-N1-CkN"/>
                             <constraint firstItem="yCv-nJ-6nt" firstAttribute="leading" secondItem="SPg-iP-Ehz" secondAttribute="leading" constant="16" id="M0b-la-6Sp"/>
-                            <constraint firstItem="yCv-nJ-6nt" firstAttribute="top" secondItem="Os7-Jb-pDo" secondAttribute="bottom" constant="32" id="lHN-ZG-AgC"/>
-                            <constraint firstItem="Os7-Jb-pDo" firstAttribute="top" secondItem="SPg-iP-Ehz" secondAttribute="top" constant="16" id="nbl-gR-e3D"/>
+                            <constraint firstAttribute="trailing" secondItem="dpF-aw-XkH" secondAttribute="trailing" id="NDq-Ut-oxS"/>
+                            <constraint firstItem="yCv-nJ-6nt" firstAttribute="top" secondItem="ZsA-bH-shB" secondAttribute="bottom" constant="32" id="O9A-sx-H0U"/>
+                            <constraint firstItem="dpF-aw-XkH" firstAttribute="leading" secondItem="SPg-iP-Ehz" secondAttribute="leading" id="eUA-Kz-O3Q"/>
+                            <constraint firstItem="dpF-aw-XkH" firstAttribute="top" secondItem="SPg-iP-Ehz" secondAttribute="top" id="kHz-wP-CFa"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -118,7 +177,10 @@
                 <outlet property="BackView" destination="SPg-iP-Ehz" id="Q0R-nA-h7U"/>
                 <outlet property="DislikeButton" destination="MV7-RY-ecB" id="Zdq-e0-Qfz"/>
                 <outlet property="DislikeImage" destination="Uah-9j-cZs" id="JOg-7m-RIY"/>
+                <outlet property="HeightDisLike" destination="9oM-r4-t3P" id="tmj-9w-B9w"/>
+                <outlet property="HeightLike" destination="UyA-i3-pgo" id="VIX-PI-wFD"/>
                 <outlet property="ImageView" destination="Os7-Jb-pDo" id="gGP-Xr-cDj"/>
+                <outlet property="ImageViewBack" destination="aos-eD-IJw" id="tpL-eN-5F8"/>
                 <outlet property="LikeButton" destination="83d-Vl-TWs" id="eLu-ZQ-9Ug"/>
                 <outlet property="LikeImage" destination="l3E-Tg-8Cr" id="Mvh-cD-jwm"/>
             </connections>
@@ -128,8 +190,5 @@
     <resources>
         <image name="Dislike" width="512" height="512"/>
         <image name="like" width="512" height="513"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
