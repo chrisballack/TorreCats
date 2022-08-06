@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mip-qv-pSu">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="394"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mip-qv-pSu" id="h1k-5J-E6Y">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="394"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SPg-iP-Ehz" customClass="UIViewX" customModule="Torrecats" customModuleProvider="target">
+                        <rect key="frame" x="8" y="0.0" width="398" height="386"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Os7-Jb-pDo" customClass="UIImageX" customModule="Torrecats" customModuleProvider="target">
+                                <rect key="frame" x="16" y="16" width="366" height="285"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="285" id="94J-Yu-iUU"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="yCv-nJ-6nt">
+                                <rect key="frame" x="16" y="333" width="76" height="32"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cIR-gy-bwL">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="like" translatesAutoresizingMaskIntoConstraints="NO" id="l3E-Tg-8Cr">
+                                                <rect key="frame" x="4" y="4" width="24" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="24" id="UyA-i3-pgo"/>
+                                                    <constraint firstAttribute="height" constant="24" id="hnh-ms-BsP"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83d-Vl-TWs">
+                                                <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="83d-Vl-TWs" secondAttribute="bottom" id="6ek-ui-7RX"/>
+                                            <constraint firstItem="83d-Vl-TWs" firstAttribute="top" secondItem="cIR-gy-bwL" secondAttribute="top" id="Kwv-yN-Ddi"/>
+                                            <constraint firstAttribute="width" constant="32" id="Myt-jq-d7f"/>
+                                            <constraint firstAttribute="trailing" secondItem="83d-Vl-TWs" secondAttribute="trailing" id="Qo5-tO-DX8"/>
+                                            <constraint firstItem="83d-Vl-TWs" firstAttribute="leading" secondItem="cIR-gy-bwL" secondAttribute="leading" id="ZMS-h9-YDz"/>
+                                            <constraint firstItem="l3E-Tg-8Cr" firstAttribute="centerY" secondItem="cIR-gy-bwL" secondAttribute="centerY" id="dmh-Pm-jE0"/>
+                                            <constraint firstAttribute="height" constant="32" id="mJL-Jr-9e0"/>
+                                            <constraint firstItem="l3E-Tg-8Cr" firstAttribute="centerX" secondItem="cIR-gy-bwL" secondAttribute="centerX" id="wy8-EA-96x"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yrF-1s-ENn">
+                                        <rect key="frame" x="44" y="0.0" width="32" height="32"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dislike" translatesAutoresizingMaskIntoConstraints="NO" id="Uah-9j-cZs">
+                                                <rect key="frame" x="4" y="4" width="24" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="9oM-r4-t3P"/>
+                                                    <constraint firstAttribute="width" constant="24" id="exr-ms-4jJ"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MV7-RY-ecB">
+                                                <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Uah-9j-cZs" firstAttribute="centerY" secondItem="yrF-1s-ENn" secondAttribute="centerY" id="0UQ-9l-bRb"/>
+                                            <constraint firstItem="MV7-RY-ecB" firstAttribute="top" secondItem="yrF-1s-ENn" secondAttribute="top" id="5gr-Kg-CG6"/>
+                                            <constraint firstAttribute="height" constant="32" id="HMh-rW-wRy"/>
+                                            <constraint firstAttribute="width" constant="32" id="SFS-ij-oZ1"/>
+                                            <constraint firstItem="Uah-9j-cZs" firstAttribute="centerX" secondItem="yrF-1s-ENn" secondAttribute="centerX" id="dLw-bN-8HQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="MV7-RY-ecB" secondAttribute="trailing" id="f7H-xV-v8f"/>
+                                            <constraint firstItem="MV7-RY-ecB" firstAttribute="leading" secondItem="yrF-1s-ENn" secondAttribute="leading" id="gkx-IX-C86"/>
+                                            <constraint firstAttribute="bottom" secondItem="MV7-RY-ecB" secondAttribute="bottom" id="jdq-o8-Vzk"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Os7-Jb-pDo" firstAttribute="leading" secondItem="SPg-iP-Ehz" secondAttribute="leading" constant="16" id="3TK-Yk-RTI"/>
+                            <constraint firstAttribute="trailing" secondItem="Os7-Jb-pDo" secondAttribute="trailing" constant="16" id="Aeg-oN-Ift"/>
+                            <constraint firstAttribute="bottom" secondItem="yCv-nJ-6nt" secondAttribute="bottom" constant="21" id="ET9-N1-CkN"/>
+                            <constraint firstItem="yCv-nJ-6nt" firstAttribute="leading" secondItem="SPg-iP-Ehz" secondAttribute="leading" constant="16" id="M0b-la-6Sp"/>
+                            <constraint firstItem="yCv-nJ-6nt" firstAttribute="top" secondItem="Os7-Jb-pDo" secondAttribute="bottom" constant="32" id="lHN-ZG-AgC"/>
+                            <constraint firstItem="Os7-Jb-pDo" firstAttribute="top" secondItem="SPg-iP-Ehz" secondAttribute="top" constant="16" id="nbl-gR-e3D"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="SPg-iP-Ehz" firstAttribute="leading" secondItem="h1k-5J-E6Y" secondAttribute="leading" constant="8" id="BaK-8v-lLt"/>
+                    <constraint firstAttribute="bottom" secondItem="SPg-iP-Ehz" secondAttribute="bottom" constant="8" id="EIa-te-ndH"/>
+                    <constraint firstItem="SPg-iP-Ehz" firstAttribute="top" secondItem="h1k-5J-E6Y" secondAttribute="top" id="b53-E7-0wo"/>
+                    <constraint firstAttribute="trailing" secondItem="SPg-iP-Ehz" secondAttribute="trailing" constant="8" id="tgw-u4-iFR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="131.8840579710145" y="143.97321428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Dislike" width="512" height="512"/>
+        <image name="like" width="512" height="513"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

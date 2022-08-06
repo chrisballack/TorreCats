@@ -10,13 +10,18 @@
 		1283F1B1EDC7AABA60B87FC8 /* Pods_Torrecats_TorrecatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E5C43234717FEDCFE2C304 /* Pods_Torrecats_TorrecatsUITests.framework */; };
 		17A30882289ECB26009F7C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30881289ECB26009F7C97 /* AppDelegate.swift */; };
 		17A30884289ECB26009F7C97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30883289ECB26009F7C97 /* SceneDelegate.swift */; };
-		17A30886289ECB26009F7C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30885289ECB26009F7C97 /* ViewController.swift */; };
+		17A30886289ECB26009F7C97 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30885289ECB26009F7C97 /* HomeView.swift */; };
 		17A30889289ECB26009F7C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A30887289ECB26009F7C97 /* Main.storyboard */; };
 		17A3088B289ECB29009F7C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A3088A289ECB29009F7C97 /* Assets.xcassets */; };
 		17A3088E289ECB29009F7C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A3088C289ECB29009F7C97 /* LaunchScreen.storyboard */; };
 		17A30899289ECB29009F7C97 /* TorrecatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30898289ECB29009F7C97 /* TorrecatsTests.swift */; };
 		17A308A3289ECB29009F7C97 /* TorrecatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308A2289ECB29009F7C97 /* TorrecatsUITests.swift */; };
 		17A308A5289ECB29009F7C97 /* TorrecatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308A4289ECB29009F7C97 /* TorrecatsUITestsLaunchTests.swift */; };
+		17A308B2289ED7E5009F7C97 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A308B1289ED7E5009F7C97 /* Colors.xcassets */; };
+		17A308B6289ED8AD009F7C97 /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A308B5289ED8AD009F7C97 /* HomeViewCell.xib */; };
+		17A308B9289EDADE009F7C97 /* ViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308B8289EDADE009F7C97 /* ViewConfig.swift */; };
+		17A308BC289EDE9E009F7C97 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308BB289EDE9E009F7C97 /* EndPoints.swift */; };
+		17A308C0289EDF37009F7C97 /* HomeViewApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308BF289EDF37009F7C97 /* HomeViewApiClient.swift */; };
 		966C604A41F769F173098152 /* Pods_Torrecats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6168C1E760B52C52B91B9F8 /* Pods_Torrecats.framework */; };
 		AF5E1F7FD7623FF1782EE4CE /* Pods_TorrecatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE067760E20918BB053D9DE9 /* Pods_TorrecatsTests.framework */; };
 /* End PBXBuildFile section */
@@ -42,7 +47,7 @@
 		17A3087E289ECB26009F7C97 /* Torrecats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torrecats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A30881289ECB26009F7C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A30883289ECB26009F7C97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17A30885289ECB26009F7C97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17A30885289ECB26009F7C97 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		17A30888289ECB26009F7C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17A3088A289ECB29009F7C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17A3088D289ECB29009F7C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +57,11 @@
 		17A3089E289ECB29009F7C97 /* TorrecatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorrecatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A308A2289ECB29009F7C97 /* TorrecatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrecatsUITests.swift; sourceTree = "<group>"; };
 		17A308A4289ECB29009F7C97 /* TorrecatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrecatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17A308B1289ED7E5009F7C97 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		17A308B5289ED8AD009F7C97 /* HomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		17A308B8289EDADE009F7C97 /* ViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfig.swift; sourceTree = "<group>"; };
+		17A308BB289EDE9E009F7C97 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		17A308BF289EDF37009F7C97 /* HomeViewApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewApiClient.swift; sourceTree = "<group>"; };
 		39543BF10B3037C318D7C128 /* Pods-Torrecats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torrecats.debug.xcconfig"; path = "Target Support Files/Pods-Torrecats/Pods-Torrecats.debug.xcconfig"; sourceTree = "<group>"; };
 		8126272B088E7E8D4B24DC8E /* Pods-Torrecats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torrecats.release.xcconfig"; path = "Target Support Files/Pods-Torrecats/Pods-Torrecats.release.xcconfig"; sourceTree = "<group>"; };
 		A6168C1E760B52C52B91B9F8 /* Pods_Torrecats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Torrecats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,11 +126,13 @@
 		17A30880289ECB26009F7C97 /* Torrecats */ = {
 			isa = PBXGroup;
 			children = (
+				17A308B7289EDACF009F7C97 /* Communs */,
+				17A308B3289ED88E009F7C97 /* HomeView */,
 				17A30881289ECB26009F7C97 /* AppDelegate.swift */,
 				17A30883289ECB26009F7C97 /* SceneDelegate.swift */,
-				17A30885289ECB26009F7C97 /* ViewController.swift */,
 				17A30887289ECB26009F7C97 /* Main.storyboard */,
 				17A3088A289ECB29009F7C97 /* Assets.xcassets */,
+				17A308B1289ED7E5009F7C97 /* Colors.xcassets */,
 				17A3088C289ECB29009F7C97 /* LaunchScreen.storyboard */,
 				17A3088F289ECB29009F7C97 /* Info.plist */,
 			);
@@ -142,6 +154,57 @@
 				17A308A4289ECB29009F7C97 /* TorrecatsUITestsLaunchTests.swift */,
 			);
 			path = TorrecatsUITests;
+			sourceTree = "<group>";
+		};
+		17A308B3289ED88E009F7C97 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				17A308BD289EDF08009F7C97 /* Model */,
+				17A308BA289EDE89009F7C97 /* Network */,
+				17A308BE289EDF0F009F7C97 /* ViewModel */,
+				17A308B4289ED898009F7C97 /* HomeViewCell */,
+				17A30885289ECB26009F7C97 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		17A308B4289ED898009F7C97 /* HomeViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				17A308B5289ED8AD009F7C97 /* HomeViewCell.xib */,
+			);
+			path = HomeViewCell;
+			sourceTree = "<group>";
+		};
+		17A308B7289EDACF009F7C97 /* Communs */ = {
+			isa = PBXGroup;
+			children = (
+				17A308B8289EDADE009F7C97 /* ViewConfig.swift */,
+				17A308BB289EDE9E009F7C97 /* EndPoints.swift */,
+			);
+			path = Communs;
+			sourceTree = "<group>";
+		};
+		17A308BA289EDE89009F7C97 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				17A308BF289EDF37009F7C97 /* HomeViewApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		17A308BD289EDF08009F7C97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17A308BE289EDF0F009F7C97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C70A9B446CE388CAE17DE37B /* Frameworks */ = {
@@ -178,6 +241,7 @@
 				17A3087A289ECB26009F7C97 /* Sources */,
 				17A3087B289ECB26009F7C97 /* Frameworks */,
 				17A3087C289ECB26009F7C97 /* Resources */,
+				7FC8686C5A9EAAE0B8C072CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +279,7 @@
 				17A3089A289ECB29009F7C97 /* Sources */,
 				17A3089B289ECB29009F7C97 /* Frameworks */,
 				17A3089C289ECB29009F7C97 /* Resources */,
+				0D4409DD1C14F81507F9708D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,7 +340,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A3088E289ECB29009F7C97 /* LaunchScreen.storyboard in Resources */,
+				17A308B2289ED7E5009F7C97 /* Colors.xcassets in Resources */,
 				17A3088B289ECB29009F7C97 /* Assets.xcassets in Resources */,
+				17A308B6289ED8AD009F7C97 /* HomeViewCell.xib in Resources */,
 				17A30889289ECB26009F7C97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +364,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0D4409DD1C14F81507F9708D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Torrecats-TorrecatsUITests/Pods-Torrecats-TorrecatsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Torrecats-TorrecatsUITests/Pods-Torrecats-TorrecatsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Torrecats-TorrecatsUITests/Pods-Torrecats-TorrecatsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		36073C2446FD6B7C3F28479E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +447,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7FC8686C5A9EAAE0B8C072CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Torrecats/Pods-Torrecats-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Torrecats/Pods-Torrecats-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Torrecats/Pods-Torrecats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -370,8 +471,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17A30886289ECB26009F7C97 /* ViewController.swift in Sources */,
+				17A308B9289EDADE009F7C97 /* ViewConfig.swift in Sources */,
+				17A308C0289EDF37009F7C97 /* HomeViewApiClient.swift in Sources */,
+				17A30886289ECB26009F7C97 /* HomeView.swift in Sources */,
 				17A30882289ECB26009F7C97 /* AppDelegate.swift in Sources */,
+				17A308BC289EDE9E009F7C97 /* EndPoints.swift in Sources */,
 				17A30884289ECB26009F7C97 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
