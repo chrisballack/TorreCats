@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mip-qv-pSu">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="mip-qv-pSu" customClass="HomeCell" customModule="Torrecats" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="394"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mip-qv-pSu" id="h1k-5J-E6Y">
@@ -114,6 +114,14 @@
                 </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="BackView" destination="SPg-iP-Ehz" id="Q0R-nA-h7U"/>
+                <outlet property="DislikeButton" destination="MV7-RY-ecB" id="Zdq-e0-Qfz"/>
+                <outlet property="DislikeImage" destination="Uah-9j-cZs" id="JOg-7m-RIY"/>
+                <outlet property="ImageView" destination="Os7-Jb-pDo" id="gGP-Xr-cDj"/>
+                <outlet property="LikeButton" destination="83d-Vl-TWs" id="eLu-ZQ-9Ug"/>
+                <outlet property="LikeImage" destination="l3E-Tg-8Cr" id="Mvh-cD-jwm"/>
+            </connections>
             <point key="canvasLocation" x="131.8840579710145" y="143.97321428571428"/>
         </tableViewCell>
     </objects>

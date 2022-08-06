@@ -11,7 +11,7 @@ import Foundation
 let Domain: String =  "https://api.thecatapi.com"
 
 
-struct URLGets{
+struct GetsURL{
     
     static let GetCats = "/v1/breeds"
     

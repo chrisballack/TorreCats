@@ -22,6 +22,9 @@
 		17A308B9289EDADE009F7C97 /* ViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308B8289EDADE009F7C97 /* ViewConfig.swift */; };
 		17A308BC289EDE9E009F7C97 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308BB289EDE9E009F7C97 /* EndPoints.swift */; };
 		17A308C0289EDF37009F7C97 /* HomeViewApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308BF289EDF37009F7C97 /* HomeViewApiClient.swift */; };
+		17A308C2289EE0BD009F7C97 /* CatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308C1289EE0BD009F7C97 /* CatsModel.swift */; };
+		17A308C4289EE147009F7C97 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308C3289EE147009F7C97 /* HomeViewModel.swift */; };
+		17A308C6289EE3EB009F7C97 /* HomeCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308C5289EE3EB009F7C97 /* HomeCells.swift */; };
 		966C604A41F769F173098152 /* Pods_Torrecats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6168C1E760B52C52B91B9F8 /* Pods_Torrecats.framework */; };
 		AF5E1F7FD7623FF1782EE4CE /* Pods_TorrecatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE067760E20918BB053D9DE9 /* Pods_TorrecatsTests.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +65,9 @@
 		17A308B8289EDADE009F7C97 /* ViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfig.swift; sourceTree = "<group>"; };
 		17A308BB289EDE9E009F7C97 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		17A308BF289EDF37009F7C97 /* HomeViewApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewApiClient.swift; sourceTree = "<group>"; };
+		17A308C1289EE0BD009F7C97 /* CatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsModel.swift; sourceTree = "<group>"; };
+		17A308C3289EE147009F7C97 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		17A308C5289EE3EB009F7C97 /* HomeCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCells.swift; sourceTree = "<group>"; };
 		39543BF10B3037C318D7C128 /* Pods-Torrecats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torrecats.debug.xcconfig"; path = "Target Support Files/Pods-Torrecats/Pods-Torrecats.debug.xcconfig"; sourceTree = "<group>"; };
 		8126272B088E7E8D4B24DC8E /* Pods-Torrecats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torrecats.release.xcconfig"; path = "Target Support Files/Pods-Torrecats/Pods-Torrecats.release.xcconfig"; sourceTree = "<group>"; };
 		A6168C1E760B52C52B91B9F8 /* Pods_Torrecats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Torrecats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				17A308B5289ED8AD009F7C97 /* HomeViewCell.xib */,
+				17A308C5289EE3EB009F7C97 /* HomeCells.swift */,
 			);
 			path = HomeViewCell;
 			sourceTree = "<group>";
@@ -196,6 +203,7 @@
 		17A308BD289EDF08009F7C97 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				17A308C1289EE0BD009F7C97 /* CatsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,6 +211,7 @@
 		17A308BE289EDF0F009F7C97 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				17A308C3289EE147009F7C97 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -474,7 +483,10 @@
 				17A308B9289EDADE009F7C97 /* ViewConfig.swift in Sources */,
 				17A308C0289EDF37009F7C97 /* HomeViewApiClient.swift in Sources */,
 				17A30886289ECB26009F7C97 /* HomeView.swift in Sources */,
+				17A308C4289EE147009F7C97 /* HomeViewModel.swift in Sources */,
+				17A308C6289EE3EB009F7C97 /* HomeCells.swift in Sources */,
 				17A30882289ECB26009F7C97 /* AppDelegate.swift in Sources */,
+				17A308C2289EE0BD009F7C97 /* CatsModel.swift in Sources */,
 				17A308BC289EDE9E009F7C97 /* EndPoints.swift in Sources */,
 				17A30884289ECB26009F7C97 /* SceneDelegate.swift in Sources */,
 			);
