@@ -1,0 +1,6 @@
+framework module Pods_Torrecats {
+  umbrella header "Pods-Torrecats-umbrella.h"
+
+  export *
+  module * { export * }
+}

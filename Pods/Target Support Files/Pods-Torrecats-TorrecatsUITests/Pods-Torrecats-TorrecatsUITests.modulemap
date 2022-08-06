@@ -1,0 +1,6 @@
+framework module Pods_Torrecats_TorrecatsUITests {
+  umbrella header "Pods-Torrecats-TorrecatsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

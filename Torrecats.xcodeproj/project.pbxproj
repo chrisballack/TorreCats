@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1283F1B1EDC7AABA60B87FC8 /* Pods_Torrecats_TorrecatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E5C43234717FEDCFE2C304 /* Pods_Torrecats_TorrecatsUITests.framework */; };
+		17A30882289ECB26009F7C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30881289ECB26009F7C97 /* AppDelegate.swift */; };
+		17A30884289ECB26009F7C97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30883289ECB26009F7C97 /* SceneDelegate.swift */; };
+		17A30886289ECB26009F7C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30885289ECB26009F7C97 /* ViewController.swift */; };
+		17A30889289ECB26009F7C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A30887289ECB26009F7C97 /* Main.storyboard */; };
+		17A3088B289ECB29009F7C97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A3088A289ECB29009F7C97 /* Assets.xcassets */; };
+		17A3088E289ECB29009F7C97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A3088C289ECB29009F7C97 /* LaunchScreen.storyboard */; };
+		17A30899289ECB29009F7C97 /* TorrecatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30898289ECB29009F7C97 /* TorrecatsTests.swift */; };
+		17A308A3289ECB29009F7C97 /* TorrecatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308A2289ECB29009F7C97 /* TorrecatsUITests.swift */; };
+		17A308A5289ECB29009F7C97 /* TorrecatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A308A4289ECB29009F7C97 /* TorrecatsUITestsLaunchTests.swift */; };
+		966C604A41F769F173098152 /* Pods_Torrecats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6168C1E760B52C52B91B9F8 /* Pods_Torrecats.framework */; };
+		AF5E1F7FD7623FF1782EE4CE /* Pods_TorrecatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE067760E20918BB053D9DE9 /* Pods_TorrecatsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17A30895289ECB29009F7C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17A30876289ECB26009F7C97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A3087D289ECB26009F7C97;
+			remoteInfo = Torrecats;
+		};
+		17A3089F289ECB29009F7C97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17A30876289ECB26009F7C97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A3087D289ECB26009F7C97;
+			remoteInfo = Torrecats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17A3087E289ECB26009F7C97 /* Torrecats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Torrecats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A30881289ECB26009F7C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17A30883289ECB26009F7C97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		17A30885289ECB26009F7C97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17A30888289ECB26009F7C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17A3088A289ECB29009F7C97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17A3088D289ECB29009F7C97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17A3088F289ECB29009F7C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A30894289ECB29009F7C97 /* TorrecatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorrecatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A30898289ECB29009F7C97 /* TorrecatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrecatsTests.swift; sourceTree = "<group>"; };
+		17A3089E289ECB29009F7C97 /* TorrecatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorrecatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A308A2289ECB29009F7C97 /* TorrecatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrecatsUITests.swift; sourceTree = "<group>"; };
+		17A308A4289ECB29009F7C97 /* TorrecatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorrecatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39543BF10B3037C318D7C128 /* Pods-Torrecats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torrecats.debug.xcconfig"; path = "Target Support Files/Pods-Torrecats/Pods-Torrecats.debug.xcconfig"; sourceTree = "<group>"; };
+		8126272B088E7E8D4B24DC8E /* Pods-Torrecats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torrecats.release.xcconfig"; path = "Target Support Files/Pods-Torrecats/Pods-Torrecats.release.xcconfig"; sourceTree = "<group>"; };
+		A6168C1E760B52C52B91B9F8 /* Pods_Torrecats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Torrecats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B554E6F385CB64A85CB88193 /* Pods-TorrecatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TorrecatsTests.debug.xcconfig"; path = "Target Support Files/Pods-TorrecatsTests/Pods-TorrecatsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2F6622854ABA6F1A52509EC /* Pods-TorrecatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TorrecatsTests.release.xcconfig"; path = "Target Support Files/Pods-TorrecatsTests/Pods-TorrecatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD0764806A916F8FAD3193EA /* Pods-Torrecats-TorrecatsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torrecats-TorrecatsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Torrecats-TorrecatsUITests/Pods-Torrecats-TorrecatsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3E5C43234717FEDCFE2C304 /* Pods_Torrecats_TorrecatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Torrecats_TorrecatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE067760E20918BB053D9DE9 /* Pods_TorrecatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TorrecatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFC28E7D1479562345558F3 /* Pods-Torrecats-TorrecatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Torrecats-TorrecatsUITests.release.xcconfig"; path = "Target Support Files/Pods-Torrecats-TorrecatsUITests/Pods-Torrecats-TorrecatsUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17A3087B289ECB26009F7C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966C604A41F769F173098152 /* Pods_Torrecats.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A30891289ECB29009F7C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5E1F7FD7623FF1782EE4CE /* Pods_TorrecatsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A3089B289ECB29009F7C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1283F1B1EDC7AABA60B87FC8 /* Pods_Torrecats_TorrecatsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A30875289ECB26009F7C97 = {
+			isa = PBXGroup;
+			children = (
+				17A30880289ECB26009F7C97 /* Torrecats */,
+				17A30897289ECB29009F7C97 /* TorrecatsTests */,
+				17A308A1289ECB29009F7C97 /* TorrecatsUITests */,
+				17A3087F289ECB26009F7C97 /* Products */,
+				FE742A3223FC19962BB46F8C /* Pods */,
+				C70A9B446CE388CAE17DE37B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17A3087F289ECB26009F7C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17A3087E289ECB26009F7C97 /* Torrecats.app */,
+				17A30894289ECB29009F7C97 /* TorrecatsTests.xctest */,
+				17A3089E289ECB29009F7C97 /* TorrecatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17A30880289ECB26009F7C97 /* Torrecats */ = {
+			isa = PBXGroup;
+			children = (
+				17A30881289ECB26009F7C97 /* AppDelegate.swift */,
+				17A30883289ECB26009F7C97 /* SceneDelegate.swift */,
+				17A30885289ECB26009F7C97 /* ViewController.swift */,
+				17A30887289ECB26009F7C97 /* Main.storyboard */,
+				17A3088A289ECB29009F7C97 /* Assets.xcassets */,
+				17A3088C289ECB29009F7C97 /* LaunchScreen.storyboard */,
+				17A3088F289ECB29009F7C97 /* Info.plist */,
+			);
+			path = Torrecats;
+			sourceTree = "<group>";
+		};
+		17A30897289ECB29009F7C97 /* TorrecatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				17A30898289ECB29009F7C97 /* TorrecatsTests.swift */,
+			);
+			path = TorrecatsTests;
+			sourceTree = "<group>";
+		};
+		17A308A1289ECB29009F7C97 /* TorrecatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17A308A2289ECB29009F7C97 /* TorrecatsUITests.swift */,
+				17A308A4289ECB29009F7C97 /* TorrecatsUITestsLaunchTests.swift */,
+			);
+			path = TorrecatsUITests;
+			sourceTree = "<group>";
+		};
+		C70A9B446CE388CAE17DE37B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6168C1E760B52C52B91B9F8 /* Pods_Torrecats.framework */,
+				E3E5C43234717FEDCFE2C304 /* Pods_Torrecats_TorrecatsUITests.framework */,
+				FE067760E20918BB053D9DE9 /* Pods_TorrecatsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE742A3223FC19962BB46F8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39543BF10B3037C318D7C128 /* Pods-Torrecats.debug.xcconfig */,
+				8126272B088E7E8D4B24DC8E /* Pods-Torrecats.release.xcconfig */,
+				DD0764806A916F8FAD3193EA /* Pods-Torrecats-TorrecatsUITests.debug.xcconfig */,
+				FEFC28E7D1479562345558F3 /* Pods-Torrecats-TorrecatsUITests.release.xcconfig */,
+				B554E6F385CB64A85CB88193 /* Pods-TorrecatsTests.debug.xcconfig */,
+				D2F6622854ABA6F1A52509EC /* Pods-TorrecatsTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17A3087D289ECB26009F7C97 /* Torrecats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A308A8289ECB29009F7C97 /* Build configuration list for PBXNativeTarget "Torrecats" */;
+			buildPhases = (
+				7B4A8055F6B5F443BBB3E0DB /* [CP] Check Pods Manifest.lock */,
+				17A3087A289ECB26009F7C97 /* Sources */,
+				17A3087B289ECB26009F7C97 /* Frameworks */,
+				17A3087C289ECB26009F7C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Torrecats;
+			productName = Torrecats;
+			productReference = 17A3087E289ECB26009F7C97 /* Torrecats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17A30893289ECB29009F7C97 /* TorrecatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A308AB289ECB29009F7C97 /* Build configuration list for PBXNativeTarget "TorrecatsTests" */;
+			buildPhases = (
+				36073C2446FD6B7C3F28479E /* [CP] Check Pods Manifest.lock */,
+				17A30890289ECB29009F7C97 /* Sources */,
+				17A30891289ECB29009F7C97 /* Frameworks */,
+				17A30892289ECB29009F7C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17A30896289ECB29009F7C97 /* PBXTargetDependency */,
+			);
+			name = TorrecatsTests;
+			productName = TorrecatsTests;
+			productReference = 17A30894289ECB29009F7C97 /* TorrecatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17A3089D289ECB29009F7C97 /* TorrecatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A308AE289ECB29009F7C97 /* Build configuration list for PBXNativeTarget "TorrecatsUITests" */;
+			buildPhases = (
+				61F5AB7E8AAB354325C67DFF /* [CP] Check Pods Manifest.lock */,
+				17A3089A289ECB29009F7C97 /* Sources */,
+				17A3089B289ECB29009F7C97 /* Frameworks */,
+				17A3089C289ECB29009F7C97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17A308A0289ECB29009F7C97 /* PBXTargetDependency */,
+			);
+			name = TorrecatsUITests;
+			productName = TorrecatsUITests;
+			productReference = 17A3089E289ECB29009F7C97 /* TorrecatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17A30876289ECB26009F7C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					17A3087D289ECB26009F7C97 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					17A30893289ECB29009F7C97 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 17A3087D289ECB26009F7C97;
+					};
+					17A3089D289ECB29009F7C97 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 17A3087D289ECB26009F7C97;
+					};
+				};
+			};
+			buildConfigurationList = 17A30879289ECB26009F7C97 /* Build configuration list for PBXProject "Torrecats" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17A30875289ECB26009F7C97;
+			productRefGroup = 17A3087F289ECB26009F7C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17A3087D289ECB26009F7C97 /* Torrecats */,
+				17A30893289ECB29009F7C97 /* TorrecatsTests */,
+				17A3089D289ECB29009F7C97 /* TorrecatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17A3087C289ECB26009F7C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A3088E289ECB29009F7C97 /* LaunchScreen.storyboard in Resources */,
+				17A3088B289ECB29009F7C97 /* Assets.xcassets in Resources */,
+				17A30889289ECB26009F7C97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A30892289ECB29009F7C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A3089C289ECB29009F7C97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36073C2446FD6B7C3F28479E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TorrecatsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61F5AB7E8AAB354325C67DFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Torrecats-TorrecatsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4A8055F6B5F443BBB3E0DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Torrecats-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A3087A289ECB26009F7C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A30886289ECB26009F7C97 /* ViewController.swift in Sources */,
+				17A30882289ECB26009F7C97 /* AppDelegate.swift in Sources */,
+				17A30884289ECB26009F7C97 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A30890289ECB29009F7C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A30899289ECB29009F7C97 /* TorrecatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17A3089A289ECB29009F7C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A308A5289ECB29009F7C97 /* TorrecatsUITestsLaunchTests.swift in Sources */,
+				17A308A3289ECB29009F7C97 /* TorrecatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17A30896289ECB29009F7C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17A3087D289ECB26009F7C97 /* Torrecats */;
+			targetProxy = 17A30895289ECB29009F7C97 /* PBXContainerItemProxy */;
+		};
+		17A308A0289ECB29009F7C97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17A3087D289ECB26009F7C97 /* Torrecats */;
+			targetProxy = 17A3089F289ECB29009F7C97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17A30887289ECB26009F7C97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A30888289ECB26009F7C97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17A3088C289ECB29009F7C97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17A3088D289ECB29009F7C97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17A308A6289ECB29009F7C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17A308A7289ECB29009F7C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17A308A9289ECB29009F7C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39543BF10B3037C318D7C128 /* Pods-Torrecats.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Torrecats/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Christians.Torrecats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17A308AA289ECB29009F7C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8126272B088E7E8D4B24DC8E /* Pods-Torrecats.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Torrecats/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Christians.Torrecats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17A308AC289ECB29009F7C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B554E6F385CB64A85CB88193 /* Pods-TorrecatsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Christians.TorrecatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Torrecats.app/Torrecats";
+			};
+			name = Debug;
+		};
+		17A308AD289ECB29009F7C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F6622854ABA6F1A52509EC /* Pods-TorrecatsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Christians.TorrecatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Torrecats.app/Torrecats";
+			};
+			name = Release;
+		};
+		17A308AF289ECB29009F7C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0764806A916F8FAD3193EA /* Pods-Torrecats-TorrecatsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Christians.TorrecatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Torrecats;
+			};
+			name = Debug;
+		};
+		17A308B0289ECB29009F7C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEFC28E7D1479562345558F3 /* Pods-Torrecats-TorrecatsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Christians.TorrecatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Torrecats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17A30879289ECB26009F7C97 /* Build configuration list for PBXProject "Torrecats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A308A6289ECB29009F7C97 /* Debug */,
+				17A308A7289ECB29009F7C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A308A8289ECB29009F7C97 /* Build configuration list for PBXNativeTarget "Torrecats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A308A9289ECB29009F7C97 /* Debug */,
+				17A308AA289ECB29009F7C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A308AB289ECB29009F7C97 /* Build configuration list for PBXNativeTarget "TorrecatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A308AC289ECB29009F7C97 /* Debug */,
+				17A308AD289ECB29009F7C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A308AE289ECB29009F7C97 /* Build configuration list for PBXNativeTarget "TorrecatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A308AF289ECB29009F7C97 /* Debug */,
+				17A308B0289ECB29009F7C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17A30876289ECB26009F7C97 /* Project object */;
+}
