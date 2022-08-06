@@ -8,8 +8,9 @@
 import Foundation
 import UIKit
 
-class HomeCell:UITableViewCell{
+class CatsCell:UITableViewCell{
     
+    @IBOutlet weak var CellTitle: UILabel!
     @IBOutlet weak var DislikeImage: UIImageView!
     @IBOutlet weak var LikeImage: UIImageView!
     @IBOutlet weak var BackView: UIViewX!
@@ -19,5 +20,13 @@ class HomeCell:UITableViewCell{
     @IBOutlet weak var DislikeButton: UIButton!
     @IBOutlet weak var HeightLike: NSLayoutConstraint!
     @IBOutlet weak var HeightDisLike: NSLayoutConstraint!
+    
+}
+
+class LikeDisLikeCell:UITableViewCell{
+    
+    @IBOutlet weak var Name: UILabel!
+    @IBOutlet weak var Time: UILabel!
+    @IBOutlet weak var LikeImage: UIImageView!
     
 }

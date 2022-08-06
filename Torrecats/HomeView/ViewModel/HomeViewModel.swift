@@ -9,7 +9,7 @@ import Foundation
 
 class HomeViewModel:NSObject{
     
-    func GetCats(completion : @escaping ([CatsModel.CatsData?]?) -> ()) {
+    func GetCats(completion : @escaping ([CatsModel.CatsData]?) -> ()) {
         
         HomeViewApiClient().GetCats{ response in
             

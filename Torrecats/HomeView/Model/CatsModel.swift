@@ -48,7 +48,8 @@ class CatsModel{
         let hypoallergenic : Int?
         let reference_image_id : String?
         let image : Image?
-        var Cell : HomeCell?
+        var Cell : CatsCell?
+        var Liked:Bool?
 
         enum CodingKeys: String, CodingKey {
 
@@ -133,6 +134,7 @@ class CatsModel{
             reference_image_id = try values.decodeIfPresent(String.self, forKey: .reference_image_id)
             image = try values.decodeIfPresent(Image.self, forKey: .image)
             Cell = nil
+            Liked = LikesSQL().IsReadyLiked(NameFunc: name!)
         }
 
     }

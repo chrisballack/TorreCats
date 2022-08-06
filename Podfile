@@ -6,6 +6,7 @@ target 'Torrecats' do
   use_frameworks!
   pod 'Alamofire'
   pod 'SDWebImage'
+  pod 'SQLite.swift', '~> 0.13.3'
 
   # Pods for Torrecats
 
