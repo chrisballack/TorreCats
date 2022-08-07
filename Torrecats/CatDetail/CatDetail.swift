@@ -59,7 +59,6 @@ class CatDetail: UIViewController {
         CatStatistic.append((Title: "Social needs:", Points: CatInfo.social_needs!))
         CatStatistic.append((Title: "Stranger friendly:", Points: CatInfo.stranger_friendly!))
         CatStatistic.append((Title: "Vocalisation:", Points: CatInfo.vocalisation!))
-        CatStatistic.append((Title: "Vocalisation:", Points: CatInfo.vocalisation!))
         
         
         for CatInfo in CatStatistic{
