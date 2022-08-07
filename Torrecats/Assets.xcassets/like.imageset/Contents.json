@@ -3,6 +3,16 @@
     {
       "filename" : "like.png",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "output-onlinepngtools (1).png",
+      "idiom" : "universal"
     }
   ],
   "info" : {

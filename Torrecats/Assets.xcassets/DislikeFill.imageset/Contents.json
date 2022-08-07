@@ -3,6 +3,16 @@
     {
       "filename" : "DislikeFill.png",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "output-onlinepngtools (2).png",
+      "idiom" : "universal"
     }
   ],
   "info" : {

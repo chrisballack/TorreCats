@@ -16,7 +16,7 @@ enum TableOption{
     
 }
 
-class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSource {
+class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSource,UIGestureRecognizerDelegate {
     
     @IBOutlet weak var TableView: UITableView!
     @IBOutlet weak var CatBarImage: UIImageView!
@@ -35,6 +35,9 @@ class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+        self.navigationController?.interactivePopGestureRecognizer!.delegate = self
         
         CustomTabBarView.layer.cornerRadius = 16
         CustomTabBarView.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -27,7 +28,7 @@
                                             <constraint firstAttribute="height" constant="19" id="chX-qa-t1H"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" name="TextColors"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZsA-bH-shB" customClass="UIViewX" customModule="Torrecats" customModuleProvider="target">
@@ -160,7 +161,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.98039215800000001" green="0.94117647410000005" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" name="CellBackgraundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="yCv-nJ-6nt" secondAttribute="bottom" constant="21" id="ET9-N1-CkN"/>
                             <constraint firstItem="yCv-nJ-6nt" firstAttribute="leading" secondItem="SPg-iP-Ehz" secondAttribute="leading" constant="16" id="M0b-la-6Sp"/>
@@ -202,5 +203,11 @@
     <resources>
         <image name="Dislike" width="512" height="512"/>
         <image name="like" width="512" height="513"/>
+        <namedColor name="CellBackgraundColor">
+            <color red="0.98039215686274506" green="0.94117647058823528" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextColors">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

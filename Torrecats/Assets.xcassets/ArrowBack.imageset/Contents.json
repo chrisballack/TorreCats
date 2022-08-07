@@ -3,6 +3,16 @@
     {
       "filename" : "arrow.png",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "output-onlinepngtools (6).png",
+      "idiom" : "universal"
     }
   ],
   "info" : {

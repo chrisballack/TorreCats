@@ -3,7 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -22,7 +22,7 @@
                                 <constraint firstAttribute="width" constant="132" id="QV7-yC-Olj"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
+                            <color key="textColor" name="TextColors"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="eH6-6c-Lp7">
@@ -38,7 +38,7 @@
                                             </constraints>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="yjo-Dj-D1X" firstAttribute="leading" secondItem="am7-P6-o9c" secondAttribute="leading" id="5fs-Fv-QvO"/>
                                         <constraint firstItem="yjo-Dj-D1X" firstAttribute="centerY" secondItem="am7-P6-o9c" secondAttribute="centerY" id="DlU-CC-grZ"/>
@@ -56,7 +56,7 @@
                                             </constraints>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="1jr-zG-4dC" secondAttribute="trailing" id="Hv9-VO-jUj"/>
                                         <constraint firstItem="1jr-zG-4dC" firstAttribute="centerX" secondItem="ETg-lf-gfz" secondAttribute="centerX" id="PYZ-qZ-UGH"/>
@@ -74,7 +74,7 @@
                                             </constraints>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="STq-2z-JCY" firstAttribute="centerY" secondItem="2YS-0J-JRd" secondAttribute="centerY" id="2uV-5S-rY0"/>
                                         <constraint firstItem="STq-2z-JCY" firstAttribute="centerX" secondItem="2YS-0J-JRd" secondAttribute="centerX" id="IYl-M5-Ccn"/>
@@ -92,7 +92,7 @@
                                             </constraints>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="mzF-vl-d0q" secondAttribute="trailing" id="42a-EF-C2t"/>
                                         <constraint firstItem="mzF-vl-d0q" firstAttribute="leading" secondItem="qjK-cL-4lB" secondAttribute="leading" id="GwO-W4-g96"/>
@@ -110,7 +110,7 @@
                                             </constraints>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="mO4-2h-Acv" firstAttribute="leading" secondItem="K69-uq-gVD" secondAttribute="leading" id="7Wt-4n-Fqf"/>
                                         <constraint firstItem="mO4-2h-Acv" firstAttribute="centerY" secondItem="K69-uq-gVD" secondAttribute="centerY" id="EGC-sy-Ujn"/>
@@ -126,7 +126,7 @@
                     </constraints>
                 </stackView>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="dMq-Fn-m7x" secondAttribute="bottom" id="0gy-il-Hz5"/>
                 <constraint firstAttribute="trailing" secondItem="dMq-Fn-m7x" secondAttribute="trailing" constant="16" id="1JQ-EQ-I75"/>
@@ -146,8 +146,8 @@
         </view>
     </objects>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="TextColors">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

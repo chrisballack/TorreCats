@@ -3,6 +3,16 @@
     {
       "filename" : "HomeBackGraund.jpg",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "Captura de Pantalla 2022-08-06 a la(s) 7.48.19 p.m..png",
+      "idiom" : "universal"
     }
   ],
   "info" : {

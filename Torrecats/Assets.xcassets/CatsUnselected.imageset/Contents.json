@@ -3,6 +3,16 @@
     {
       "filename" : "CatsUnselected.png",
       "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "output-onlinepngtools (4).png",
+      "idiom" : "universal"
     }
   ],
   "info" : {

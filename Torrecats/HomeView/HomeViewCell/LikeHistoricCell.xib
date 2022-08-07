@@ -3,7 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -54,7 +54,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="CellBackgraundColor"/>
                         <constraints>
                             <constraint firstItem="zVb-0P-bI9" firstAttribute="top" secondItem="Yjy-Ti-AZy" secondAttribute="top" constant="16" id="27t-rZ-BFi"/>
                             <constraint firstAttribute="bottom" secondItem="zVb-0P-bI9" secondAttribute="bottom" constant="16" id="XxA-QF-xqV"/>
@@ -87,8 +87,8 @@
     </objects>
     <resources>
         <image name="LikeFill" width="512" height="513"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="CellBackgraundColor">
+            <color red="0.98039215686274506" green="0.94117647058823528" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
