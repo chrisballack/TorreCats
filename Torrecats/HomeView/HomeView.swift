@@ -25,6 +25,8 @@ class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
     
     var CatsArray:[CatsModel.CatsData] = []
     var arraylikelist: [(IsLike: Bool, Name: String, DateFunc: Date)] = []
+    var CatInfo:CatsModel.CatsData!
+    
     
     var tableOption:TableOption = .Cats
     let ViewModel = HomeViewModel()
@@ -225,6 +227,16 @@ class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let vc = segue.destination as? CatDetail {
+            
+            vc.CatInfo = CatInfo
+            
+        }
+        
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         if tableOption == .Cats{
@@ -298,6 +310,18 @@ class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
             cell.LikeImage.image = arraylikelist[Index].IsLike == true ? UIImage(named: "LikeFill")! : UIImage(named: "DislikeFill")!
             cell.selectionStyle =  .none
             return cell
+            
+        }
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if tableOption == .Cats{
+            
+        let Index = indexPath.row
+        CatInfo = CatsArray[Index]
+        self.performSegue(withIdentifier: "CatDetail", sender: nil)
             
         }
         
