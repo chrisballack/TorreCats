@@ -22,9 +22,11 @@ class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
     @IBOutlet weak var CatBarImage: UIImageView!
     @IBOutlet weak var LikeDislikeImage: UIImageView!
     @IBOutlet weak var CustomTabBarView: UIViewX!
+    @IBOutlet weak var HomeTitle: UILabel!
+    @IBOutlet weak var EmptylistView: UIView!
     
-    var CatsArray:[CatsModel.CatsData] = []
     var arraylikelist: [(IsLike: Bool, Name: String, DateFunc: Date)] = []
+    var CatsArray:[CatsModel.CatsData] = []
     var CatInfo:CatsModel.CatsData!
     
     
@@ -47,18 +49,29 @@ class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
         
     }
     
+    //Obtener la informacion
     func GetInfo(){
         
+        showLoadingView(vista: self)
+        
         ViewModel.GetCats { CatsInfo in
+            
+            HideLoadingView(vista: self)
             
             if let Cats = CatsInfo{
                 
                 self.CatsArray = Cats
+                self.EmptylistView.isHidden = !(self.CatsArray.count == 0)
+                self.TableView.isHidden = self.CatsArray.count == 0
                 self.TableView.reloadData()
                 
             }else{
                 
-                
+                let miAlerta = UIAlertController(title: "Error", message: "Can't Get Information", preferredStyle: UIAlertController.Style.alert)
+                let okBoton = UIAlertAction(title: "Ok", style: UIAlertAction.Style.cancel, handler: nil)
+                miAlerta.addAction(okBoton)
+                self.present(miAlerta, animated: true, completion: nil)
+                self.EmptylistView.isHidden = false
                 
             }
             
@@ -66,21 +79,27 @@ class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
         
     }
     
+    //Cambia la lista con el uso de un enum
     @IBAction func CatsAction(_ sender: Any) {
         
-        
+        HomeTitle.text = "Cats"
         tableOption = .Cats
         CatBarImage.image = UIImage(named: "CatsSelected")!
         LikeDislikeImage.image = UIImage(named: "LikeDislikeUnSelected")!
+        self.EmptylistView.isHidden = !(self.CatsArray.count == 0)
+        self.TableView.isHidden = self.CatsArray.count == 0
         self.TableView.reloadData()
-        
         
     }
     
+    //Cambia la lista con el uso de un enum y obtiene la lista de likes y dislikes cats
     @IBAction func LikeDislikeAction(_ sender: Any) {
         
+        HomeTitle.text = "Likes"
         tableOption = .Likes
         arraylikelist = self.SQL.listLikes()
+        self.EmptylistView.isHidden = !(self.arraylikelist.count == 0)
+        self.TableView.isHidden = self.arraylikelist.count == 0
         CatBarImage.image = UIImage(named: "CatsUnselected")!
         LikeDislikeImage.image = UIImage(named: "LikeDisLikeSelected")!
         self.TableView.reloadData()
@@ -99,8 +118,6 @@ class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
                     
                     height.constant = 16
                     
-                    print("Doing")
-                    
                     UIView.animate(withDuration: 0.2, delay: 0.0, options: .curveEaseOut, animations: {
                         self.view.layoutIfNeeded()
                     }, completion: { finished in
@@ -110,8 +127,6 @@ class HomeViewController:UIViewController,UITableViewDelegate,UITableViewDataSou
                         UIView.animate(withDuration: 0.2, delay: 0.0, options: .curveEaseOut, animations: {
                             self.view.layoutIfNeeded()
                         }, completion: { finished in
-                            
-                            print("did")
                             
                             self.SQL.DeleteLike(NameFunc: self.CatsArray[index].name!)
                             self.CatsArray[index].Liked = nil
