@@ -7,6 +7,7 @@ target 'Torrecats' do
   pod 'Alamofire'
   pod 'SDWebImage'
   pod 'SQLite.swift', '~> 0.13.3'
+  pod 'lottie-ios'
 
   # Pods for Torrecats
 
